@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a9cc85a-570c-413b-9899-dd0b128a1475" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/UI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Zoo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled15/com/company/Cat.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled15/com/company/Cat.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled15/com/company/Dog.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled15/com/company/Dog.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/untitled15/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled15/com/company/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Dog.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
@@ -26,7 +25,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="2ZisTZmvOQbCg0AGwEjsKybpSLn" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -34,6 +35,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
@@ -82,7 +84,14 @@
       <option name="project" value="LOCAL" />
       <updated>1702918064901</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="saf">
+      <created>1702918722430</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1702918722430</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -90,37 +99,64 @@
     <option name="LAST_COMMIT_MESSAGE" value="saf" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-1155" y="231" key="#com.intellij.ide.util.MemberChooser" timestamp="1702918147433">
+    <state x="-955" y="226" key="#com.intellij.ide.util.MemberChooser" timestamp="1702921428680">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1155" y="231" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1400/-1920.0.1920.1040/3840.0.2560.1400@-1920.0.1920.1040" timestamp="1702918147433" />
-    <state x="-1306" y="111" key="CommitChangelistDialog2" timestamp="1702918064323">
+    <state x="-955" y="226" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1400/-1920.0.1920.1040/3840.0.2560.1400@-1920.0.1920.1040" timestamp="1702921428680" />
+    <state x="-1306" y="111" key="CommitChangelistDialog2" timestamp="1702918721839">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1306" y="111" key="CommitChangelistDialog2/0.0.2560.1400/-1920.0.1920.1040/3840.0.2560.1400@-1920.0.1920.1040" timestamp="1702918064323" />
-    <state x="-1100" y="443" key="Github.Dialog.Accounts.Choose" timestamp="1702918070301">
+    <state x="-1306" y="111" key="CommitChangelistDialog2/0.0.2560.1400/-1920.0.1920.1040/3840.0.2560.1400@-1920.0.1920.1040" timestamp="1702918721839" />
+    <state x="-1100" y="443" key="Github.Dialog.Accounts.Choose" timestamp="1702918728078">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1100" y="443" key="Github.Dialog.Accounts.Choose/0.0.2560.1400/-1920.0.1920.1040/3840.0.2560.1400@-1920.0.1920.1040" timestamp="1702918070301" />
-    <state width="1860" height="279" key="GridCell.Tab.0.bottom" timestamp="1702918554427">
+    <state x="-1100" y="443" key="Github.Dialog.Accounts.Choose/0.0.2560.1400/-1920.0.1920.1040/3840.0.2560.1400@-1920.0.1920.1040" timestamp="1702918728078" />
+    <state width="1860" height="279" key="GridCell.Tab.0.bottom" timestamp="1702921952142">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="279" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1920.0.1920.1040/3840.0.2560.1400@-1920.0.1920.1040" timestamp="1702918554427" />
-    <state width="1860" height="279" key="GridCell.Tab.0.center" timestamp="1702918554426">
+    <state width="1860" height="279" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1920.0.1920.1040/3840.0.2560.1400@-1920.0.1920.1040" timestamp="1702921952142" />
+    <state width="1860" height="279" key="GridCell.Tab.0.center" timestamp="1702921952142">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="279" key="GridCell.Tab.0.center/0.0.2560.1400/-1920.0.1920.1040/3840.0.2560.1400@-1920.0.1920.1040" timestamp="1702918554426" />
-    <state width="1860" height="279" key="GridCell.Tab.0.left" timestamp="1702918554426">
+    <state width="1860" height="279" key="GridCell.Tab.0.center/0.0.2560.1400/-1920.0.1920.1040/3840.0.2560.1400@-1920.0.1920.1040" timestamp="1702921952142" />
+    <state width="1860" height="279" key="GridCell.Tab.0.left" timestamp="1702921952142">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="279" key="GridCell.Tab.0.left/0.0.2560.1400/-1920.0.1920.1040/3840.0.2560.1400@-1920.0.1920.1040" timestamp="1702918554426" />
-    <state width="1860" height="279" key="GridCell.Tab.0.right" timestamp="1702918554427">
+    <state width="1860" height="279" key="GridCell.Tab.0.left/0.0.2560.1400/-1920.0.1920.1040/3840.0.2560.1400@-1920.0.1920.1040" timestamp="1702921952142" />
+    <state width="1860" height="279" key="GridCell.Tab.0.right" timestamp="1702921952142">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1860" height="279" key="GridCell.Tab.0.right/0.0.2560.1400/-1920.0.1920.1040/3840.0.2560.1400@-1920.0.1920.1040" timestamp="1702918554427" />
-    <state x="-1368" y="243" key="Vcs.Push.Dialog.v2" timestamp="1702918066544">
+    <state width="1860" height="279" key="GridCell.Tab.0.right/0.0.2560.1400/-1920.0.1920.1040/3840.0.2560.1400@-1920.0.1920.1040" timestamp="1702921952142" />
+    <state width="1860" height="344" key="GridCell.Tab.1.bottom" timestamp="1702921907956">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1368" y="243" key="Vcs.Push.Dialog.v2/0.0.2560.1400/-1920.0.1920.1040/3840.0.2560.1400@-1920.0.1920.1040" timestamp="1702918066544" />
+    <state width="1860" height="344" key="GridCell.Tab.1.bottom/0.0.2560.1400/-1920.0.1920.1040/3840.0.2560.1400@-1920.0.1920.1040" timestamp="1702921907956" />
+    <state width="1860" height="344" key="GridCell.Tab.1.center" timestamp="1702921907955">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1860" height="344" key="GridCell.Tab.1.center/0.0.2560.1400/-1920.0.1920.1040/3840.0.2560.1400@-1920.0.1920.1040" timestamp="1702921907955" />
+    <state width="1860" height="344" key="GridCell.Tab.1.left" timestamp="1702921907955">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1860" height="344" key="GridCell.Tab.1.left/0.0.2560.1400/-1920.0.1920.1040/3840.0.2560.1400@-1920.0.1920.1040" timestamp="1702921907955" />
+    <state width="1860" height="344" key="GridCell.Tab.1.right" timestamp="1702921907955">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1860" height="344" key="GridCell.Tab.1.right/0.0.2560.1400/-1920.0.1920.1040/3840.0.2560.1400@-1920.0.1920.1040" timestamp="1702921907955" />
+    <state x="-1368" y="243" key="Vcs.Push.Dialog.v2" timestamp="1702918724418">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1368" y="243" key="Vcs.Push.Dialog.v2/0.0.2560.1400/-1920.0.1920.1040/3840.0.2560.1400@-1920.0.1920.1040" timestamp="1702918724418" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/company/Main.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
