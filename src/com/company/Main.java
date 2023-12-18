@@ -6,19 +6,21 @@ public class Main {
 	// write your code here
 
         //ООП
-        int a= 5;
 
         //наслідовання
-        Animal animal = new Animal();
+        //поліморфізм
+
         Animal cat = new Cat();
+        Dog sharik = new Dog();
+        Animal animal = new Animal();
 
-//        animal.move();
+        addAnimal(cat);
+        addAnimal(sharik);
+        addAnimal(animal);
 
-        cat.move();
-        if (cat instanceof Cat){
-            Cat murr = (Cat) cat;
-            murr.eat();
-        }
+    }
 
+    public static void addAnimal(Animal animal){
+        animal.move();
     }
 }
